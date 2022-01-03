@@ -1,0 +1,75 @@
+/* Header CSS Start*/
+* {
+  margin: 0;
+  padding: 0;
+}
+.Header-main-cont1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  height: 4rem;
+  background-color: white;
+  box-shadow: 0px 0px 11px 0px rgb(0 0 0 / 86%);
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  margin-top: -6rem;
+}
+.Header-main-fabar {
+  display: flex;
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+.Header-Menuicon {
+  color: black;
+}
+.Header-main-hidden {
+  visibility: hidden;
+}
+.Header-main-h2 {
+  display: flex;
+}
+.Header-main-h2-p {
+  margin-top: -14px;
+  font-size: 0.5rem;
+  float: right;
+  color: #808080;
+}
+.Header-main-img:hover {
+  animation: none;
+}
+.Header-main-img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  margin-right: 7px;
+  cursor: pointer;
+  animation: App-logo-spin infinite 10s linear;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Mui Pre-defined css */
+.MuiBox-root {
+  padding-top: 2rem;
+  background: #303036;
+  height: 100%;
+}
+.MuiListItemText-root {
+  text-decoration: none;
+  color: white;
+}
+.MuiButtonBase-root:hover {
+  background-color: #808290 !important;
+}
+.MuiList-root {
+  color: white;
+}
+/* Header Css End*/
